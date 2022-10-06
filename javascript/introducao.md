@@ -1,6 +1,6 @@
-[Voltar](https://github.com/4L1C3-R4BB1T/estudos/tree/main/javascript)
+🔙 [Voltar para o Início](https://github.com/4L1C3-R4BB1T/estudos/tree/main/javascript "Voltar para o Início")
 
-### Variáveis
+### 🔸 Variáveis
 ```js
 var numero = 1;
 let frase = "Bom dia";
@@ -9,12 +9,12 @@ const PI = 3.1415;
 
 ---
 
-**var**
+**✔️ var**
 * declara variáveis em **escopo global**
 
 ---
 
-**let** 
+**✔️ let** 
 * let it change 
 * declara variáveis em **escopo de bloco**
 * a variável não pode ser redeclarada
@@ -23,14 +23,14 @@ const PI = 3.1415;
 
 ---
 
-**const** 
+**✔️ const** 
 * constante
 * seu valor deve ser atribuído logo na declaração 
 * seu valor **não pode ser alterado posteriormente**
 
 ---
 
-### Tipos de Dados 
+### 🔸 Tipos de Dados 
 ```js
 let nome = 'Livia'; // String
 let idade = 21; // Number
