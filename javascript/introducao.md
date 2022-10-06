@@ -3,23 +3,29 @@
 ### Variáveis
 ```js
 var numero = 1;
-let frase = "Bom dia"; // a variável não pode ser redeclarada
-const PI = 3.1415; // constante, 
+let frase = "Bom dia";
+const PI = 3.1415; 
 ```
 
-**var**
-* declara variáveis em escopo global
+---
 
-**let:** 
+**var**
+* declara variáveis em **escopo global**
+
+---
+
+**let** 
 * let it change 
-* declara variáveis em escopo de bloco
+* declara variáveis em **escopo de bloco**
 * a variável não pode ser redeclarada
 * seu valor pode ser reatribuído
 * seu valor não precisa necessariamente ser atribuído logo na declaração
 
-**const:** 
+---
+
+**const** 
 * constante
 * seu valor deve ser atribuído logo na declaração 
-* seu valor não pode ser alterado posteriormente
+* seu valor **não pode ser alterado posteriormente**
 
-
+---
