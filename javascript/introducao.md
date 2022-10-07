@@ -1,5 +1,7 @@
 🔙 [Voltar para o Início](https://github.com/4L1C3-R4BB1T/estudos/tree/main/javascript "Voltar para o Início")
 
+---
+
 ### 🔸 Variáveis
 ```js
 var numero = 1;
