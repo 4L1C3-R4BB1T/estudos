@@ -27,6 +27,8 @@ const PI = 3.1415;
 * constante
 * seu valor deve ser atribuído logo na declaração 
 * seu valor **não pode ser alterado posteriormente**
+* não é uma **constante** de valor e sim de **referência**
+* se a referência não for alterada, seu conteúdo pode ser mudado
 
 ---
 
@@ -56,4 +58,16 @@ let soma = '100' + 50; // 10050 - concatenação
 let subtracao = '100' - 50; // 50
 let multiplicacao = '100' * '2'; // 200
 let divisao = 'Comprei 10' / 2; // NaN - Not a Number
+```
+
+---
+
+### 🔸 Conversão entre Tipos 
+```js
+let a = parseInt('43'); 
+let b = parseFloat('2.34');
+let c = Number('123');
+
+let d = 10;
+d = d.toString();
 ```
