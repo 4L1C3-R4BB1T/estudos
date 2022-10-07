@@ -98,6 +98,24 @@ if ('') // ou "" ou ``
 
 ---
 
+### 🔸 Funções
+```js
+// declaração de função
+function soma(a = 0, b = 0) {
+  return a + b;
+}
+
+// expressão de função
+const ola = function() {
+  console.log('ola mundo');
+}
+
+// arrow function
+const obterDia = () => {
+  return new Date().getDay();
+}
+```
+
 ### 🔗 Links
 * [Entenda a diferença entre var, let e const no JavaScript](https://www.alura.com.br/artigos/entenda-diferenca-entre-var-let-e-const-no-javascript#var)  
 * [Tipos de Dados Primitivos em Javascript](https://medium.com/@alves.guilherme1357/tipos-de-dados-primitivos-em-javascript-d7380564933c)  
