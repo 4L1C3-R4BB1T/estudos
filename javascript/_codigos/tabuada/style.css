@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#botoes {
+    margin-bottom: 30px;
+}
+
+#botoes > button {
+    margin-right: 20px;
+    padding: 5px;
+}
+
+#output {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#output > div {
+    padding: 15px;
+    font-size: 18px;
+    line-height: 30px;
+    border: 2px solid black;
+}
