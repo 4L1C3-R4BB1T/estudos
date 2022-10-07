@@ -9,12 +9,12 @@ const PI = 3.1415;
 
 ---
 
-**✔️ var**
+#### ✔️ var
 * declara variáveis em **escopo global**
 
 ---
 
-**✔️ let** 
+#### ✔️ let
 * let it change 
 * declara variáveis em **escopo de bloco**
 * a variável não pode ser redeclarada
@@ -23,7 +23,7 @@ const PI = 3.1415;
 
 ---
 
-**✔️ const** 
+#### ✔️ const 
 * constante
 * seu valor deve ser atribuído logo na declaração 
 * seu valor **não pode ser alterado posteriormente**
@@ -71,3 +71,31 @@ let c = Number('123');
 let d = 10;
 d = d.toString();
 ```
+
+---
+
+#### ❗️ Condicional ternário
+```js
+(condicao) ? true : false;
+```
+
+---
+
+### 🔸 Valores falsy e truthy
+```js
+// Falsy
+if (false)
+if (0) // ou -0
+if (NaN)
+if (null)
+if (undefined)
+if ('') // ou "" ou `` 
+
+// Todo o resto é truthy
+```
+
+---
+
+### 🔗 Links
+* [Entenda a diferença entre var, let e const no JavaScript](https://www.alura.com.br/artigos/entenda-diferenca-entre-var-let-e-const-no-javascript#var)  
+* [Tipos de Dados Primitivos em Javascript](https://medium.com/@alves.guilherme1357/tipos-de-dados-primitivos-em-javascript-d7380564933c)
