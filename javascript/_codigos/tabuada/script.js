@@ -2,9 +2,8 @@ const mostrarTabuada = () => {
     for (let i = 0; i <= 10; i++) {
         let tabuada =  document.createElement('div');
         for (let j = 0; j <= 10; j++) {
-            let valor = document.createElement('div');
-            valor.innerHTML = `${i} x ${j} = ${i*j}`
-            tabuada.appendChild(valor);
+            tabuada.append(`${i} x ${j} = ${i*j}`);
+            tabuada.appendChild(document.createElement('br'));
         }
         document.getElementById('output').appendChild(tabuada);
     }
