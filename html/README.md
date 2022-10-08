@@ -45,7 +45,7 @@
 | ```<figure>```  | Especifica conteúdo auto-contido |
 | ```<footer>```  | Define um rodapé para um documento ou seção |
 | ```<form>```  | Define um formulário HTML para entrada do usuário |
-| ```<h1> até <h6>```  | Define cabeçalhos de HTML |
+| ```<h1>``` até ```<h6>```  | Define cabeçalhos de HTML |
 | ```<head>```  | Define informações sobre o documento |
 | ```<header>```  | Define um cabeçalho para um documento ou seção |
 | ```<hr>```  | Marca uma quebra de tema com uma linha horizontal |
