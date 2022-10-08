@@ -207,7 +207,31 @@ const produto = {
 
 ---
 
+### 🔸 Tratamento de Erros
+```js
+function sum(a, b) {
+  if (typeof a !== 'number' || typeof b !== 'number') {
+    throw Error('sum aceita apenas numeros');
+  }
+  return a + b;
+}
+
+try {
+  // código a ser executado
+  let soma = sum(3, 'a');
+} catch (e) {
+  // o que será executado em caso de erro
+  console.log('Erro:', e.message);
+} finally {
+  // o que será executado no final - sempre é executado
+  console.log('finalizado');
+}
+```
+
+---
+
 ### 🔗 Links
 * [Entenda a diferença entre var, let e const no JavaScript](https://www.alura.com.br/artigos/entenda-diferenca-entre-var-let-e-const-no-javascript#var)  
 * [Tipos de Dados Primitivos em Javascript](https://medium.com/@alves.guilherme1357/tipos-de-dados-primitivos-em-javascript-d7380564933c)  
 * [Sintaxe e tipos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Grammar_and_types)
+* [Atribuição por valor e referência](https://blog.azagatti.dev/assignment-value-and-reference/#:~:text=Os%20valores%20primitivos%20no%20JavaScript,atribu%C3%ADmos%20uma%20vari%C3%A1vel%20a%20outra.)
