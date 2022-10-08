@@ -116,6 +116,33 @@ const obterDia = () => {
 }
 ```
 
+### 🔸 Escopo de Variáveis
+* **var** gera escopo de função
+* **let** e **const** geram escopo de bloco
+
+```js
+let n = 'global';
+
+function mostraN() {
+  let n = 'local';
+  console.log(`valor de n: ${n}`);
+}
+
+function fnExt() {
+  let n = 'n local na função fnExt';
+  
+  function fnInt() {
+    let n = 'n local na função fnInt';
+    console.log(n);
+  }
+  fnInt();
+  console.log(n);
+}
+```
+
+
+---
+
 ### 🔗 Links
 * [Entenda a diferença entre var, let e const no JavaScript](https://www.alura.com.br/artigos/entenda-diferenca-entre-var-let-e-const-no-javascript#var)  
 * [Tipos de Dados Primitivos em Javascript](https://medium.com/@alves.guilherme1357/tipos-de-dados-primitivos-em-javascript-d7380564933c)  
