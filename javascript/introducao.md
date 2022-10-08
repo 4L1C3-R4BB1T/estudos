@@ -116,6 +116,8 @@ const obterDia = () => {
 }
 ```
 
+---
+
 ### 🔸 Escopo de Variáveis
 * **var** gera escopo de função
 * **let** e **const** geram escopo de bloco
@@ -140,6 +142,68 @@ function fnExt() {
 }
 ```
 
+---
+
+### 🔸 Arrays
+```js
+const arr1 = new Array(1, 2, 3); // formal
+const arr2 = [1, 2, 3]; // literal
+
+arr2.push('a', 'b', 'c'); // adiciona itens no array
+
+// iterar array
+arr1.forEach((n) => {
+  console.log(n);
+});
+
+// array de objetos
+const girls = [
+  { 
+    nome: "Shiori", 
+    idade: 14
+  },
+  { 
+    nome: "Tsubaki", 
+    idade: 19
+  },
+  { 
+    nome: "Miyu", 
+    idade: 15
+  }
+];
+
+// iterar array de objetos
+for (let i in girls) {
+  console.log(girls[i]);
+}
+```
+
+---
+
+### 🔸 Objetos
+```js
+const obj1 = new Object(); // formal
+const obj2 = {}; // literal
+
+const obj3 = { nome: 'Shiori', idade: 14};
+
+// iterar  objeto
+for (let prop in obj3) {
+  console.log(`${prop}: ${obj3[prop]}`);
+}
+
+// métodos de objetos
+const produto = {
+  nome: 'caneta',
+  qtd: 10,
+  comprar(n) {
+    if (n > this.qtd) {
+      return 'quantidade invalida';
+    }
+    this.qtd -= n;
+  }
+}
+```
 
 ---
 
