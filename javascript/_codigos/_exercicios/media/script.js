@@ -6,8 +6,7 @@ const media = () => {
     if (nums[0] !== '') {
         nums.forEach((n) => {
             n = parseFloat(n);
-            console.log(n);
-            if (n != n) { // NaN != NaN
+            if (isNaN(n)) {
                 throw Error('apenas numeros sao aceitos');
             }
             media += n;
@@ -20,4 +19,3 @@ const media = () => {
 document.getElementById('media').addEventListener('click', () => {
     media();
 });
-
