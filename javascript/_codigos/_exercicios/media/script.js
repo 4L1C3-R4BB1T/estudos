@@ -17,5 +17,9 @@ const media = () => {
 }
 
 document.getElementById('media').addEventListener('click', () => {
-    media();
+    try {
+        media();
+    } catch (e) {
+        alert(e.message);
+    }
 });
