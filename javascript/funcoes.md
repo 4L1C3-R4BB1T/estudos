@@ -35,13 +35,13 @@ console.log(teste.name);
 ---
 
 ### 🔸 Funções auto-invocáveis
-Funções em javascript são tratadas como qualquer outro objeto
+Funções em javascript são tratadas como qualquer outro objeto.
 * passadas como parâmetros para outras funções (callback)
 * atribuídas em propriedades de objetos (métodos)
 * retornadas como resultado de outra função
 * podem ter suas próprias propriedades
 
-ES5: única forma de definir escopo de variávies.
+**ES5:** única forma de definir escopo de variávies.
 
 ```js
 // var
@@ -63,9 +63,9 @@ function minhaFunc() {
 console.log(y) // erro
 ```
 
-IIFE: funções auto-invocáveis evitar poluir o escopo global. 
+**IIFE:** funções auto-invocáveis evitar poluir o escopo global. 
 
-Não vai precisar de IIFE se:
+**Não** vai precisar de **IIFE** se:
 * usar um bundle (webpack, parcel, outros)
 * usar ESModules (browsers modernos)
 * programar em Node
