@@ -34,7 +34,7 @@ console.log(teste.name);
 
 ---
 
-### 🔸 Funções auto-invocáveis
+### 🔸 Funções Auto-Invocáveis
 Funções em javascript são tratadas como qualquer outro objeto.
 * passadas como parâmetros para outras funções (callback)
 * atribuídas em propriedades de objetos (métodos)
@@ -112,7 +112,7 @@ console.log(somar2(1, 2, 3, 4));
 
 --- 
 
-### 🔸 Objetos de primeira classe
+### 🔸 Objetos de Primeira Classe
 * passadas como parâmentros para outras funções (callback)
 * atribuídas em propriedades de objetos (métodos)
 * retornadas como resultado de outra função

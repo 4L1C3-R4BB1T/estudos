@@ -34,7 +34,7 @@ const PI = 3.1415;
 
 ---
 
-### 🔸 Tipos de dados 
+### 🔸 Tipos de Dados 
 ```js
 let nome = 'Livia'; // String
 let idade = 21; // Number
@@ -64,7 +64,7 @@ let divisao = 'Comprei 10' / 2; // NaN - Not a Number
 
 ---
 
-### 🔸 Conversão entre tipos 
+### 🔸 Conversão entre Tipos 
 ```js
 let a = parseInt('43'); 
 let b = parseFloat('2.34');
@@ -76,7 +76,7 @@ d = d.toString();
 
 ---
 
-#### ❗️ Condicional ternário
+#### ❗️ Condicional Ternário
 ```js
 (condicao) ? true : false;
 ```
@@ -118,7 +118,7 @@ const obterDia = () => {
 
 ---
 
-### 🔸 Escopo de variáveis
+### 🔸 Escopo de Variáveis
 * **var** gera escopo de função
 * **let** e **const** geram escopo de bloco
 
@@ -207,7 +207,7 @@ const produto = {
 
 ---
 
-### 🔸 Tratamento de erros
+### 🔸 Tratamento de Erros
 ```js
 function sum(a, b) {
   if (typeof a !== 'number' || typeof b !== 'number') {

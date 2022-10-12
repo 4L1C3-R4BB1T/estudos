@@ -7,4 +7,4 @@
 🔸 [Palavras reservadas e 'use strict'](https://github.com/4L1C3-R4BB1T/estudos/blob/main/javascript/_arquivos/palavras_reservadas.md)  
 🔸 [Funções](https://github.com/4L1C3-R4BB1T/estudos/blob/main/javascript/_arquivos/funcoes.md)  
 🔸 [DOM](https://github.com/4L1C3-R4BB1T/estudos/blob/main/javascript/_arquivos/dom.md)  
-🔸 [TypeScript](https://github.com/4L1C3-R4BB1T/estudos/blob/main/javascript/_arquivos/typescript.md)  
+🔸 [TypeScript](https://github.com/4L1C3-R4BB1T/estudos/blob/main/javascript/_arquivos/typescript_introducao.md)  

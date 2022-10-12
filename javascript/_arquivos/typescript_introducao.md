@@ -14,7 +14,7 @@ export default msg;
 
 ---
 
-#### ❗️ Comandos no terminal
+#### ❗️ Comandos no Terminal
 ```bash
 npm init -y
 npm install typescript -D // instalar o typescript apenas no modo de desenvolvimento
@@ -24,7 +24,7 @@ npx tsc --init
 
 ---
 
-### 🔸 Tipos primitivos e array
+### 🔸 Tipos Primitivos e Array
 ```js
 // primitivos
 let msg: string = 'teste de string';
@@ -96,7 +96,7 @@ console.log(Sizes.SMALL);
 
 ---
 
-### 🔸 Any vs unknown
+### 🔸 Any vs Unknown
 ```js
 function add(x: unknown, y: unknown) {
     if (typeof x === 'number' && typeof y === 'number') {
@@ -110,7 +110,7 @@ const teste = add(3, 5);
 
 ---
 
-### 🔸 Void vs never
+### 🔸 Void vs Never
 ```js
 function showFeedback(message: string, type: string): void {
     alert(type.toUpperCase() + ': ' + message);
@@ -127,7 +127,7 @@ const error = showError('messagem de erro');
 
 ---
 
-### 🔸 Null e undefined
+### 🔸 Null e Undefined
 ```js
 const inNull: null = null;
 const isUndefined: undefined = undefined;
@@ -135,7 +135,7 @@ const isUndefined: undefined = undefined;
 
 ---
 
-### 🔸 Union types
+### 🔸 Union Types
 ```js
 function add(x: number, y?: number) {
     if (y === undefined) {
