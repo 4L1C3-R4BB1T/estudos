@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Saudação</title>
+    </head>
+    <body>
+        <p>Bem vindo(a), </p>    
+        <script>
+            (function () {
+                const nome = 'Livia';
+                const elemento = document.querySelector('p');
+                
+                if (nome) {
+                    // elemento.textContent += `${nome}!`;
+                    elemento.innerHTML += `<b>${nome}</b>!`
+                } else {
+                    // elemento.style.display = 'none';
+                    // elemento.parentElement.display = 'none'; // acessa o elemento pai
+                    // elemento.remove(); // remove o elemento da página
+                    
+                    const elementoParaRemover = elemento.parentElement;
+                    elementoParaRemover.parentElement.removeChild(elementoParaRemover);
+                }
+            })();
+
+            // Exemplo
+            // (function () {
+            //     const nomeUsuario = 'Livia';
+
+            //     if (nomeUsuario) {
+            //         const topBarElemento = document.createElement('div');
+            //         topBarElemento.className = 'top-bar';
+            //         topBarElemento.innerHTML = `<p>Olá, <b>${nomeUsuario}</b></p>`;
+
+            //         // elementoPai.insertBefore(novoElemento, elementoReferencia);
+
+            //         const elementoPai = document.querySelector('.hero');
+            //         elementoPai.insertBefore(topBarElemento, elementoPai.firstElementChild);
+            //     }
+            // })();
+        </script>
+    </body>
+</html>
