@@ -34,7 +34,7 @@ const PI = 3.1415;
 
 ---
 
-### 🔸 Tipos de Dados 
+### 🔸 Tipos de dados 
 ```js
 let nome = 'Livia'; // String
 let idade = 21; // Number
@@ -64,7 +64,7 @@ let divisao = 'Comprei 10' / 2; // NaN - Not a Number
 
 ---
 
-### 🔸 Conversão entre Tipos 
+### 🔸 Conversão entre tipos 
 ```js
 let a = parseInt('43'); 
 let b = parseFloat('2.34');
@@ -118,7 +118,7 @@ const obterDia = () => {
 
 ---
 
-### 🔸 Escopo de Variáveis
+### 🔸 Escopo de variáveis
 * **var** gera escopo de função
 * **let** e **const** geram escopo de bloco
 
@@ -207,7 +207,7 @@ const produto = {
 
 ---
 
-### 🔸 Tratamento de Erros
+### 🔸 Tratamento de erros
 ```js
 function sum(a, b) {
   if (typeof a !== 'number' || typeof b !== 'number') {
